@@ -1,5 +1,5 @@
-function generatePassword(){
-  
+function generatePassword(length, includeLowerCase, includeUpperCase, includeNumbers, includeSymbols){
+    return '';
 }
 
 
@@ -8,3 +8,9 @@ const includeLowerCase = true;
 const includeUpperCase = true;
 const includeNumbers = true;
 const includeSymbols = true;
+
+const password = generatePassword(passwordLength,
+                                 includeLowerCase,
+                                 includeUpperCase,
+                                 includeNumbers,
+                                 includeSymbols )
